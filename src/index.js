@@ -1,5 +1,6 @@
 // use "import" to import libraries
 import express from 'express';
+import cors from 'cors';
 
 // use "require" to import JSON files
 const admins = require('./data/admins.json');
@@ -7,6 +8,7 @@ const admins = require('./data/admins.json');
 const app = express();
 const port = process.env.PORT || 3000;
 
+app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
