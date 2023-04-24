@@ -1,6 +1,6 @@
-# BaSP 2022 - Trackgenix server
+# BaSP 2023 - [app name]
 
-Trackgenix is a system that provides Human Resources services to companies.
+[add app description]
 
 <br>
 
@@ -18,7 +18,7 @@ Start the server:
  npm start
 ```
 
- View the server at: http://localhost:3000
+ View the server at: http://localhost:4000
 
 <br>
 
@@ -51,4 +51,4 @@ npm run lint:fix
 
 ### License & Copyright
 
-© Radium Rocket "Become a Software Professional 2022"
+© Radium Rocket "Become a Software Professional 2023"
